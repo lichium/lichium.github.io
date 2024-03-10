@@ -3,9 +3,10 @@ layout: mypost
 title: 绳子被缓慢缩短的单摆  
 categories:  
   - 物理  
-share: "true"  
+share: true  
+attachments: 2024/03/10/  
 ---  
-文章内容文章内容文章内容  
+文章内容文章内容文章内容文章内容文章内容  
 #t  
   
 #test  
