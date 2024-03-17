@@ -8,7 +8,7 @@ author: Lichium
 footerText: 'Have a nice day~'
 
 # 这些不要动
-permalink: /posts/:year/:month/:day/:title.html
+permalink: /posts/:year-:month-:day-:title.html
 kramdown:
   auto_ids: true
   input: GFM
@@ -32,6 +32,9 @@ menu:
     url: /pages/search.html
   - title: 关于
     url: /pages/about.html
+  - title: 🚇
+    url: https://www.travellings.cn/go.html
+    target: '_blank'
 
 # 点击页面文字冒出特效,不需要请设置为false
 extClickEffect: false
@@ -44,7 +47,7 @@ extAdsense: false
 extMath: true
 
 # 显示访问量统计，由不蒜子提供服务
-extCount: false
+extCount: true
 
 # 友情链接
 links:
