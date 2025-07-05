@@ -28,10 +28,10 @@
   import "@local/typsite:0.1.0": inline
   if block {
     html.div(class: "math-container")[
-      #html.span(class: "math-block", inline(scale: scale, auto-filter: true, body))
+      #html.span(class: "math-block", inline(scale: scale,body))
     ]
   } else {
-    html.span(class: "math-inline", inline(scale: scale + 70%, auto-filter: true, body))
+    html.span(class: "math-inline", inline(scale: scale + 70%, body))
   }
 }
 
