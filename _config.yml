@@ -1,0 +1,51 @@
+encoding: utf-8
+
+plugins:
+  - jekyll-regex-replace
+
+# SEO相关信息
+title: Lichium Blog
+description: Lichium的个人博客
+author: Lichium
+footerText: '~ Have a nice day ~'
+
+# 这些不要动
+permalink: /posts/:year/:month/:day/:title.html
+kramdown:
+  auto_ids: true
+  input: GFM
+  syntax_highlighter: rouge
+exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'blog.sh']
+
+# 域名配置
+# baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
+domainUrl: 'https://lichium.github.io'
+baseurl: ''
+
+# 菜单
+# 必填字段 title: '文本' url: '链接'
+# 可选字段 target: '_blank' 新页面打开 
+menu:
+  - title: 首页
+    url: /
+  - title: 归类
+    url: /pages/categories.html
+  - title: 搜索
+    url: /pages/search.html
+  - title: 关于
+    url: /pages/about.html
+  - title: 🚇
+    url: https://www.travellings.cn/go.html
+
+# 点击页面文字冒出特效,不需要请设置为false
+extClickEffect: false
+
+# Google Adsense,不需要请设置为false
+# _includes/ext-adsense.html 里面修改为自己的配置
+extAdsense: false
+
+# 数学公式支持，比较影响加载速度,不需要请设置为false
+extMath: true
+
+# 显示访问量统计，由不蒜子提供服务
+extCount: false
