@@ -2,10 +2,10 @@ html {
   color: #333333;
   background: #ffffff;
   scroll-behavior: smooth;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  text-size-adjust: 100%;
+  -ms-text-size-adjust: 120%;
+  -webkit-text-size-adjust: 120%;
+  -moz-text-size-adjust: 120%;
+  text-size-adjust: 120%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: STKaiti,KaiTi,'Cascadia Code', Consolas, Helvetica, 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif;
