@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'HYFangSongJ';
+    src: url('static/font/HYFangSong.ttf')format('ttf');
+}
 html {
   color: #333333;
   background: #ffffff;
